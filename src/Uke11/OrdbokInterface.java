@@ -2,7 +2,7 @@ package Uke11;
 
 import java.util.Iterator;
 
-public interface OrdbokInterface<K,V> {
+public interface OrdbokInterface<K, V> {
 
 
     //Blir fylt inn på forelesning
@@ -18,6 +18,7 @@ public interface OrdbokInterface<K,V> {
     Iterator<K> getNokkelIterator();
 
     Iterator<V> getVerdiIterator();
+
     boolean erTom();
 
     int getAntall();
